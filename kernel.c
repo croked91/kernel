@@ -13,7 +13,6 @@ static inline unsigned char k_inb(unsigned short port);
 void k_main() 
 {
     char password[4];
-		char rate[2];
 
     k_clear_screen(WHITE_TXT_ON_BLUE_BG);
     k_printf("Hello! It's your bank security service.", 0, WHITE_TXT_ON_BLUE_BG);
