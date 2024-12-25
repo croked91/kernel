@@ -98,10 +98,10 @@ void k_get_text(char *buffer, int pos, unsigned int max_length)
             case 0x09: key = '8'; break;
             case 0x0A: key = '9'; break;
             case 0x0B: key = '0'; break;
-            case 0x1C: // Enter key
+            case 0x1C:
                 buffer[count] = '\0';
                 return;
-            case 0x0E: // Backspace
+            case 0x0E:
                 if (count > 0) {
                     count--;
                     pos -= 2;
